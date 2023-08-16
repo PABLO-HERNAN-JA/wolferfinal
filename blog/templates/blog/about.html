@@ -1,0 +1,74 @@
+{% extends "blog/base.html" %}<!---->
+{% block content %}<!---->
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-W/pfC+iH7y42n9J6sdv5uywX6dmVI4gCs5ZIzSGSDVL8i40v3/JVq5WRkY8FvCtjivLEB1ngk/KGxwMXQ6jyfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <center><h3>Esta red social fue implementada por Pablo Jasso Y Felipe Mayorga Alumnos de la Unidad Academica Jalpan UTSJR.</h3>
+    <img src="https://i.ibb.co/TkVbVCj/wolf.png" width="100" height="100"><!----></center>
+    <section id="nosotros">
+    <h2>Nosotros</h2>
+    <div class="autores">
+        <div class="autor">
+            <img src="https://i.ibb.co/nMB8hPV/1689437135333.jpg" width="800" height="200" alt="felipe" border="0">
+            <h3>Felipe Mayorga</h3>
+            <div class="redes-sociales">
+            <a href="https://www.facebook.com/felipe.mayorgamelo.1?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            </div>
+        <div class="autor">
+        <img src="https://i.ibb.co/Fssw0pQ/1689437135316.jpg" width="800" height="200" alt="pablo border="0">
+        <h3>Pablo Jasso</h3>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/pablo.hernanjasso.7?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+            </div>
+    </section>
+    <style>
+    #nosotros {
+text-align: center;
+}
+
+.autores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.autor {
+    width: 200px;
+}
+
+.autor img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.autor h3 {
+    margin-top: 10px;
+}
+
+.autor p {
+    margin-top: 5px;
+}
+/*redes sociales*/
+.redes-sociales {
+    margin-top: 10px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+.redes-sociales a:hover {
+    color: #007bff;
+}
+
+
+</style>
+
+
+{% endblock content %}<!---->
